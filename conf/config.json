@@ -1,0 +1,19 @@
+{
+    "bridge": {
+        "name": "Karaage Home IoT",
+        "username": "B8:27:EB:ED:6B:08",
+        "port": 51821,
+        "pin": "031-45-155"
+    },
+
+    "description": "Study",
+
+    "accessories": [
+       {
+           "accessory": "CMD",
+           "name": "書斎",
+           "on_cmd": "sudo python ~/home-iot/irmcli.py -p -f ~/home-iot/json/study_aircon_on.json && sudo python ~/home-iot/irmcli.py -p -f ~/home-iot/json/study_light_on.json" ,
+           "off_cmd": "sudo python ~/home-iot/irmcli.py -p -f ~/home-iot/json/study_aircon_off.json && sudo python ~/home-iot/irmcli.py -p -f ~/home-iot/json/study_light_off.json"
+       }
+   ]
+ }
