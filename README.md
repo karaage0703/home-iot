@@ -47,6 +47,24 @@ Execute following line(ex:living room):
 $ cp ~/home-iot/conf/conf_living.json ~/.homebridge/conf.json
 ```
 
+## Setting Auto Boot
+If you would like your Pi to start up HomeBridge automatically in a Screen session on reboot, you need to install Screen and edit the Pi's `/etc/rc.local` file.
+
+Install Screen
+
+```sh
+$ sudo apt-get install screen
+```
+Edit /etc/rc.local
+```sh
+$ sudo vim /etc/rc.local
+```
+Add this line before the exit 0 line:
+
+```sh
+su -c "screen -dmS homebridge homebridge" -s /bin/sh pi
+```
+
 # Test
 Execute following command:
 ```
