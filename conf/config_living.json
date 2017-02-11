@@ -1,0 +1,19 @@
+{
+    "bridge": {
+        "name": "Living Room",
+        "username": "B8:27:EB:ED:6B:08",
+        "port": 51821,
+        "pin": "031-45-155"
+    },
+
+    "description": "Living",
+
+    "accessories": [
+       {
+           "accessory": "CMD",
+           "name": "リビング",
+           "on_cmd": "~/home-iot/irdata/living_on.sh" ,
+           "off_cmd": "~/home-iot/irdata/living_off.sh"
+       }
+   ]
+ }

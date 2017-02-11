@@ -16,6 +16,7 @@ Home Internet of Things
 ## Software
 - Install Raspbian Jessie (Release date:2016-11-25)
 - Install Homebridge
+
 ### Install Homebridge
 Execute following commands for installing library for homebridge:
 ```sh
@@ -41,8 +42,9 @@ $ cd
 $ git clone https://github.com/karaage0703/home-iot
 ```
 ## Copy conf file
+Execute following line(ex:living room):
 ```sh
-$ cp ~/home-iot/conf/conf.json ~/.homebridge/conf.json
+$ cp ~/home-iot/conf/conf_living.json ~/.homebridge/conf.json
 ```
 
 # Test
