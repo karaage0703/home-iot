@@ -1,6 +1,6 @@
 {
     "bridge": {
-        "name": "Living Room",
+        "name": "Karaage Home IoT",
         "username": "B8:27:EB:ED:6B:08",
         "port": 51821,
         "pin": "031-45-155"
@@ -14,6 +14,18 @@
            "name": "リビング",
            "on_cmd": "~/home-iot/irdata/living_on.sh" ,
            "off_cmd": "~/home-iot/irdata/living_off.sh"
+       },
+       {
+           "accessory": "CMD",
+           "name": "室内温度",
+           "on_cmd": "python ~/home-iot/tweet_sensor_data.py" ,
+           "off_cmd": "python ~/home-iot/tweet_sensor_data.py"
+       },
+       {
+           "accessory": "CMD",
+           "name": "室内撮影",
+           "on_cmd": "python ~/home-iot/shutter.py" ,
+           "off_cmd": "python ~/home-iot/shutter.py"
        }
    ]
  }
