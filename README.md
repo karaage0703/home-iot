@@ -72,7 +72,7 @@ $ homebridge
 ```
 
 # Authors
-netbuffalo(irmcli.py)  
+netbuffalo(irmcli.py)  
 milkaulait(V-IR)
 
 # References
