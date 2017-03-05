@@ -76,5 +76,5 @@ netbuffalo(irmcli.py)
 milkaulait(V-IR)
 
 # References
-https://github.com/netbuffalo/irmcli
-http://purose.net/fanout/index.php?VIR-USB%20接続赤外線学習リモコン
+- https://github.com/netbuffalo/irmcli
+- http://purose.net/fanout/index.php?VIR-USB%20接続赤外線学習リモコン
